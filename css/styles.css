@@ -1,0 +1,150 @@
+
+*{
+    box-sizing: border-box;
+    padding: none;
+    margin: none;
+    text-decoration: none;
+    
+}
+body{
+    font-family:Hanken Grotesk;
+    font-weight: 500, 700,800;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    max-width: 800px;
+    font-size: 20px;
+    text-align: center;
+    background-color: lightgray;
+}
+@media(min-width:375px) and (max-width:1440px){
+
+
+.container{
+    width: 100%;
+    position: relative;
+    
+    display: flex;
+    position:relative;
+    top:30%
+   
+}
+.container-one{
+    width: 100%;
+    text-align: center;
+    width: 50%;
+    background:linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 10px;
+}
+
+.blue{
+    border-radius: 50%;
+    background:linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    font-size: 20px;
+    color: white;
+    width: 50%;
+    height: 100px;
+    margin-top: 40px;
+    position: relative;
+    left: 25%;
+    text-align: center;
+} 
+.big-size{
+    font-size: 45px;
+    position: relative;
+    top: 15px;
+}
+.small-size{
+    font-size: 12px;
+    color: lightgrey;
+    position: relative;
+    top: 5px;
+}
+h4{
+    color: white;
+    font-size: 30px;
+}
+p{
+    color: white;
+    font-size: 18px;
+}
+.result{
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+.container-two{
+   
+    background-color: white;
+    border: 1px solid white;
+    width: 50%; 
+    border-radius: 0px 10px 10px 0;
+}
+ button{
+    width: 80%;
+    margin-top: 20px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    border-radius: 5px;
+    text-align: left;
+
+    
+}
+.red{
+    color: hsl(0, 100%, 67%);
+    ;
+} 
+.light-orange{
+    background-color:rgba(255, 160, 122, 0.541);
+    border: none;
+}
+.green{
+    color: hsl(166, 100%, 37%);
+    
+}
+.light-green{
+    background-color: rgba(144, 238, 199, 0.158);
+    border: none;
+}
+.yellow{
+    color:orange;
+}
+.light-yellow{
+    background-color: rgb(255, 255, 224);
+    border: none;
+}
+.dark-blue{
+    color: navy
+}
+
+   
+.light-purple{
+background-color: hsl(221, 100%, 96%);
+border: none;
+}
+
+.bold{
+  
+  
+   font-weight: 800;
+}
+.center{
+    text-align: center;
+    color: white;
+    background: hsl(224, 30%, 27%);
+    border-radius: 40px;
+}
+.float{
+    float: right;
+}
+img{
+    font-size: 15px;
+    margin-right: 10px;
+    
+
+}
+}
